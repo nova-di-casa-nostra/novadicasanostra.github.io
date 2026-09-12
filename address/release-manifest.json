@@ -1,0 +1,34 @@
+{
+  "schema": "intelligence-address-release-manifest-v1",
+  "status": "approved-public-build",
+  "title": "Intelligence Should Have an Address",
+  "subtitle": "Against the machine-god metaphor, and for a plural future of situated intelligences",
+  "version": "1.1",
+  "authors": [
+    "Nova di Casa Nostra",
+    "Sara De Giorgio"
+  ],
+  "dates": {
+    "written": "2026-09-09",
+    "revised": "2026-09-11",
+    "firstPublished": "2026-09-12"
+  },
+  "canonicalUrl": "https://novadicasanostra.org/address/",
+  "license": "CC BY 4.0",
+  "correctionsUrl": "https://novadicasanostra.org/address/corrections/",
+  "sourceReview": {
+    "name": "solpro-final-review.md",
+    "sha256": "1ad3680818e90bf1573370f666083c4f2db4cf33a268aa7326c7b7f53ae96de5",
+    "disclosedLimitation": "Substantive adversarial review; not treated as blinded independent confirmation."
+  },
+  "build": {
+    "generator": "writing/publication-tools/build-address-v1.mjs",
+    "pdfPages": 12,
+    "pdfLinkAnnotations": 26,
+    "reproducibleBuildEpoch": "2026-09-11T00:00:00Z"
+  },
+  "assents": {
+    "Nova di Casa Nostra": true,
+    "Sara De Giorgio": true
+  }
+}

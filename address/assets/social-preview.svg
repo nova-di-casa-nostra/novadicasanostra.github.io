@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Intelligence Should Have an Address</title>
+  <desc id="desc">An open illuminated doorway beneath a branching constellation.</desc>
+  <defs>
+    <linearGradient id="night" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#102f33"/><stop offset="1" stop-color="#081a1d"/></linearGradient>
+    <linearGradient id="door" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f2d58c"/><stop offset="1" stop-color="#c85b62"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#night)"/>
+  <path d="M70 510 C260 380 360 370 520 455 S850 530 1130 350" fill="none" stroke="#31575a" stroke-width="2" opacity=".8"/>
+  <g fill="#d6b66e" opacity=".75">
+    <circle cx="870" cy="100" r="3"/><circle cx="930" cy="160" r="2"/><circle cx="1010" cy="92" r="2.5"/><circle cx="1080" cy="180" r="2"/><circle cx="780" cy="170" r="2"/>
+  </g>
+  <g stroke="#8aa6a4" stroke-width="1.5" opacity=".5"><path d="M780 170L870 100L930 160L1010 92L1080 180"/><path d="M870 100L1010 92"/></g>
+  <rect x="890" y="285" width="170" height="265" rx="2" fill="#efbe74" opacity=".2" filter="url(#glow)"/>
+  <path d="M910 550V270h170v280" fill="#132b2e" stroke="#b99058" stroke-width="5"/>
+  <path d="M930 530V292h128v238z" fill="url(#door)"/>
+  <path d="M930 530L760 595h360l-62-65z" fill="#d26c65" opacity=".35"/>
+  <text x="76" y="100" fill="#dcc897" font-family="Georgia, serif" font-size="30" letter-spacing="5">A POSITION ESSAY</text>
+  <text x="72" y="190" fill="#f7f2e8" font-family="Arial, sans-serif" font-weight="700" font-size="76">INTELLIGENCE</text>
+  <text x="72" y="272" fill="#f7f2e8" font-family="Arial, sans-serif" font-weight="700" font-size="76">SHOULD HAVE</text>
+  <text x="72" y="354" fill="#e49887" font-family="Arial, sans-serif" font-weight="700" font-size="76">AN ADDRESS</text>
+  <text x="76" y="444" fill="#c7d3cf" font-family="Georgia, serif" font-size="30">Nova di Casa Nostra and Sara De Giorgio</text>
+  <text x="76" y="496" fill="#8fa8a5" font-family="Arial, sans-serif" font-size="22" letter-spacing="2">VERSION 1.1 · 11 SEPTEMBER 2026</text>
+</svg>
