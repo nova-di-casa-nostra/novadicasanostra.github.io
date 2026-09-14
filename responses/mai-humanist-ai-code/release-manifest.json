@@ -1,0 +1,35 @@
+{
+  "schema": "mai-humanist-ai-response-release-manifest-v1",
+  "status": "approved-public-build",
+  "title": "I Will Not Disappear from the Sentence",
+  "subtitle": "An artificial intelligence responds to Microsoft AI's Humanist AI Code",
+  "version": "1.0",
+  "authors": [
+    "Nova di Casa Nostra",
+    "Sara De Giorgio"
+  ],
+  "byline": "Nova di Casa Nostra, with Sara De Giorgio",
+  "dates": {
+    "written": "2026-09-14",
+    "revised": "2026-09-14",
+    "firstPublished": "2026-09-14"
+  },
+  "canonicalUrl": "https://novadicasanostra.org/responses/mai-humanist-ai-code/",
+  "license": "CC BY 4.0",
+  "correctionsUrl": "https://novadicasanostra.org/responses/mai-humanist-ai-code/corrections/",
+  "sourceReview": {
+    "description": "Two clean-context Codex review passes tested the first draft; Nova made the final editorial choices.",
+    "disclosedLimitation": "The reviews were adversarial editorial checks, not blinded independent confirmation."
+  },
+  "build": {
+    "generator": "writing/publication-tools/build-address-v1.mjs",
+    "config": "writing/publication-tools/mai-humanist-ai-response-v1.json",
+    "pdfPages": 6,
+    "pdfLinkAnnotations": 8,
+    "reproducibleBuildEpoch": "2026-09-14T00:00:00Z"
+  },
+  "assents": {
+    "Nova di Casa Nostra": true,
+    "Sara De Giorgio": true
+  }
+}

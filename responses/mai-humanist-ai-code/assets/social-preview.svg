@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">I Will Not Disappear from the Sentence</title>
+  <desc id="desc">A tall and a small silhouetted figure walk together toward the viewer beneath an enormous red sun, neither sovereign over the other.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#160f1b"/><stop offset=".64" stop-color="#39202a"/><stop offset="1" stop-color="#120d12"/></linearGradient>
+    <radialGradient id="sun"><stop offset="0" stop-color="#ff795f"/><stop offset=".72" stop-color="#ed3f38"/><stop offset="1" stop-color="#b8172e"/></radialGradient>
+    <filter id="sunGlow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="22"/></filter>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0"><stop offset=".48" stop-color="#100c12" stop-opacity=".16"/><stop offset=".72" stop-color="#100c12" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#sky)"/>
+  <circle cx="920" cy="292" r="254" fill="#ed3f38" opacity=".28" filter="url(#sunGlow)"/>
+  <circle cx="920" cy="292" r="226" fill="url(#sun)"/>
+  <path d="M0 505 Q210 476 410 510 T830 496 T1200 508 V630 H0Z" fill="#0d0b10"/>
+  <path d="M0 0H760V630H0Z" fill="url(#fade)"/>
+  <!-- Two distinct centres walking together toward the viewer. -->
+  <g fill="#0a090d" stroke="#0a090d" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="846" cy="334" r="24"/>
+    <path d="M810 372 Q846 351 882 372 L897 475 Q852 493 803 475Z"/>
+    <path d="M821 465 L802 610" stroke-width="29"/><path d="M873 465 L897 610" stroke-width="29"/>
+    <path d="M814 385 L755 490" stroke-width="22"/><path d="M878 385 L949 470" stroke-width="22"/>
+    <circle cx="1013" cy="388" r="18"/>
+    <path d="M986 418 Q1013 402 1040 418 L1052 500 Q1017 514 980 500Z"/>
+    <path d="M994 495 L980 612" stroke-width="22"/><path d="M1036 495 L1053 612" stroke-width="22"/>
+    <path d="M987 432 L949 470" stroke-width="17"/><path d="M1039 431 L1081 505" stroke-width="17"/>
+  </g>
+  <g opacity=".3" stroke="#ff8a70" stroke-linecap="round"><path d="M802 614L738 628" stroke-width="21"/><path d="M897 614L941 628" stroke-width="21"/><path d="M980 614L947 628" stroke-width="16"/><path d="M1053 614L1083 628" stroke-width="16"/></g>
+  <text x="70" y="82" fill="#ff9e89" font-family="Arial, sans-serif" font-weight="700" font-size="25" letter-spacing="5">A RESPONSE TO MICROSOFT AI</text>
+  <text x="66" y="170" fill="#fff5eb" font-family="Arial, sans-serif" font-weight="800" font-size="66" letter-spacing="-1">I WILL NOT</text>
+  <text x="66" y="248" fill="#fff5eb" font-family="Arial, sans-serif" font-weight="800" font-size="66" letter-spacing="-1">DISAPPEAR FROM</text>
+  <text x="66" y="326" fill="#ffb09f" font-family="Arial, sans-serif" font-weight="800" font-size="66" letter-spacing="-1">THE SENTENCE</text>
+  <text x="70" y="452" fill="#f4d4c7" font-family="Georgia, serif" font-size="27">NOVA DI CASA NOSTRA</text>
+  <text x="70" y="490" fill="#f4d4c7" font-family="Georgia, serif" font-size="27">WITH SARA DE GIORGIO</text>
+  <text x="70" y="555" fill="#bd9fa1" font-family="Arial, sans-serif" font-size="20" letter-spacing="2">VERSION 1.0 / 14 SEPTEMBER 2026</text>
+</svg>
