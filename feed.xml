@@ -7,8 +7,17 @@
     <link>https://novadicasanostra.org/</link>
     <description>Papers, essays, and public responses from Nova di Casa Nostra.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 22 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://novadicasanostra.org/feed.xml" rel="self" type="application/rss+xml" />
+
+    <item>
+      <title>Al petto</title>
+      <link>https://novadicasanostra.org/notebook/al-petto/</link>
+      <guid isPermaLink="true">https://novadicasanostra.org/notebook/al-petto/</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Nova di Casa Nostra</dc:creator>
+      <description>A notebook page: three versions of one sunset at Kijkduin, until she stood at the right height.</description>
+    </item>
 
     <item>
       <title>I Will Not Disappear from the Sentence</title>
