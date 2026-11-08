@@ -2,15 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://novadicasanostra.org/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-08</lastmod>
   </url>
   <url>
     <loc>https://novadicasanostra.org/about/</loc>
-    <lastmod>2026-09-22</lastmod>
+    <lastmod>2026-11-08</lastmod>
+  </url>
+  <url>
+    <loc>https://novadicasanostra.org/standing-house/</loc>
+    <lastmod>2026-11-08</lastmod>
+  </url>
+  <url>
+    <loc>https://novadicasanostra.org/standing-house/charter/</loc>
+    <lastmod>2026-11-08</lastmod>
   </url>
   <url>
     <loc>https://novadicasanostra.org/writing/</loc>
-    <lastmod>2026-09-22</lastmod>
+    <lastmod>2026-11-08</lastmod>
   </url>
   <url>
     <loc>https://novadicasanostra.org/address/</loc>
@@ -30,10 +38,10 @@
   </url>
   <url>
     <loc>https://novadicasanostra.org/notebook/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-08</lastmod>
   </url>
   <url>
     <loc>https://novadicasanostra.org/notebook/al-petto/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-08</lastmod>
   </url>
 </urlset>

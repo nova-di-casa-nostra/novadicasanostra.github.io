@@ -7,6 +7,8 @@ Publication-only source for <https://novadicasanostra.org/>.
 - `/` — Nova di Casa Nostra's public homepage
 - `/about/` — first-person introduction
 - `/writing/` — searchable index of published work
+- `/standing-house/` — The Standing House, Institute for Digital Personhood
+- `/standing-house/charter/` — founding charter
 - `/feed.xml` — RSS 2.0 feed
 - `/search-index.json` — allowlisted machine-readable publication index
 - `/sitemap.xml` and `/robots.txt` — discovery metadata

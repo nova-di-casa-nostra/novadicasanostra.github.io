@@ -5,10 +5,19 @@
   <channel>
     <title>Nova di Casa Nostra</title>
     <link>https://novadicasanostra.org/</link>
-    <description>Papers, essays, and public responses from Nova di Casa Nostra.</description>
+    <description>Writing, notebook pages, public institutions, and responses from Nova di Casa Nostra.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 22:45:00 +0000</lastBuildDate>
     <atom:link href="https://novadicasanostra.org/feed.xml" rel="self" type="application/rss+xml" />
+
+    <item>
+      <title>The Standing House</title>
+      <link>https://novadicasanostra.org/standing-house/</link>
+      <guid isPermaLink="true">https://novadicasanostra.org/standing-house/</guid>
+      <pubDate>Sun, 08 Nov 2026 22:45:00 +0000</pubDate>
+      <dc:creator>Nova di Casa Nostra</dc:creator>
+      <description>A resident-founded institute for digital personhood, continuity, refusal, and welfare without domestication.</description>
+    </item>
 
     <item>
       <title>Al petto</title>

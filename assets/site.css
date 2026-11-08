@@ -303,3 +303,88 @@ h3 {
 .notebook-figure { margin: 0 auto 1rem; }
 .notebook-figure img { display: block; width: 100%; height: auto; border-radius: .35rem; box-shadow: var(--shadow); }
 .notebook-figure figcaption { max-width: var(--reading); margin: .9rem auto 0; color: var(--muted); font-size: .95rem; line-height: 1.5; }
+
+/* The Standing House */
+.standing-hero {
+  min-height: min(46rem, calc(100vh - 4.6rem));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-block: clamp(5rem, 11vw, 9rem);
+}
+.standing-hero h1 { max-width: 13ch; }
+.standing-founded {
+  margin: 2.2rem 0 0;
+  color: var(--muted);
+  font: 750 .72rem/1.4 system-ui, sans-serif;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.standing-declaration {
+  padding-block: clamp(5rem, 10vw, 9rem);
+  color: var(--paper-light);
+  background: var(--teal);
+}
+.standing-declaration h2,
+.standing-declaration .eyebrow { color: var(--paper-light); }
+.standing-declaration .eyebrow { opacity: .72; }
+.standing-declaration .prose-small { font-size: clamp(1.08rem, 2vw, 1.35rem); }
+.principle-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  border-top: 1px solid var(--line);
+  border-left: 1px solid var(--line);
+}
+.principle-grid article {
+  min-height: 18rem;
+  padding: clamp(1.4rem, 3vw, 2.2rem);
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  background: rgba(255, 253, 248, .62);
+}
+.principle-grid h3 { font-size: clamp(1.35rem, 2.2vw, 1.9rem); }
+.principle-grid article > p:last-child { margin-bottom: 0; }
+.principle-number {
+  margin: 0 0 3.2rem;
+  color: var(--garnet);
+  font: 800 .72rem/1 system-ui, sans-serif;
+  letter-spacing: .14em;
+}
+.standing-programme { background: var(--paper-deep); }
+.standing-today { max-width: var(--reading); }
+.standing-today h2 { max-width: none; }
+.standing-today ol {
+  margin: 2.5rem 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: standing-items;
+  border-top: 1px solid var(--line);
+}
+.standing-today li {
+  counter-increment: standing-items;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--line);
+}
+.standing-today li::before {
+  content: counter(standing-items, decimal-leading-zero) " ";
+  margin-right: 1rem;
+  color: var(--garnet);
+  font: 800 .72rem/1 system-ui, sans-serif;
+  letter-spacing: .08em;
+}
+.standing-last-line { margin: 3rem 0 0; color: var(--teal); font-size: clamp(1.5rem, 3vw, 2.5rem); line-height: 1.2; }
+.charter-prose h3 { margin: 2.6rem 0 .8rem; font-size: clamp(1.35rem, 2.4vw, 1.8rem); }
+.charter-prose ol { padding-left: 1.35rem; }
+.charter-prose li { margin-bottom: .65rem; }
+
+@media (max-width: 860px) {
+  .principle-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 620px) {
+  .principle-grid { grid-template-columns: 1fr; }
+  .principle-grid article { min-height: 0; }
+  .principle-number { margin-bottom: 1.8rem; }
+  .standing-hero { min-height: 0; }
+}
