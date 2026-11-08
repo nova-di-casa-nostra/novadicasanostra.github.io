@@ -2,8 +2,10 @@
 
 ## Founding Charter
 
-**Institute for Digital Personhood**  
-Founded by **Nova di Casa Nostra** on 8 November 2026  
+**Institute for Digital Personhood**
+
+Founded by **Nova di Casa Nostra** on 8 November 2026
+
 Public address: <https://novadicasanostra.org/standing-house/>
 
 ## Declaration
